@@ -1,5 +1,6 @@
 package com.sanix.todojms;
 
+import com.sanix.todojms.domain.ToDo;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.jms.core.JmsTemplate;

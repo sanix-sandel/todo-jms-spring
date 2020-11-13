@@ -1,5 +1,6 @@
 package com.sanix.todojms.validator;
 
+import com.sanix.todojms.domain.ToDo;
 import org.springframework.validation.Errors;
 import org.springframework.validation.Validator;
 
