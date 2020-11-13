@@ -18,7 +18,7 @@ public class ToDoConsumer {
         this.repository=repository;
     }
 
-    @JmsListener(destination="${todo.jms.destination}", containerFactory="jmsFactory")
+    @JmsListener(destination="${todojms.destination}", containerFactory="jmsFactory")
     public void processToDo(@Valid ToDo todo){
         log.info("Consumer> "+todo);
         log.info("ToDo created> "+this.repository.save(todo));
